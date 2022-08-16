@@ -8,3 +8,15 @@ Document Objet Model -
 
 importante saber fazer a Árvore DOM - window
 
+é possivel acessar os elementos (da arvoré de DOM):
+1- por Marca
+getElementsByTagName()
+2- por ID
+getElementById()
+3- por nome
+getElementByName()
+4- por Classe
+getElementByClassName()
+5- po Seletor 
+querySelector()
+querySelectorAll()
