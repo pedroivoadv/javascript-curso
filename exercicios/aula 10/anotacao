@@ -1,0 +1,18 @@
+mouseenter
+mousemove
+mousedown
+mouseup
+click
+mouseout
+
+eventos só de mouse na div
+
+Para tratar e disparar um evento precisa de uma função (conjunto de código que serão executadas só quando o evento ocorrer)
+bloco (10 linhas de códigos)
+
+function ação (param) {
+    bloco
+}
+
+
+

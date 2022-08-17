@@ -1,0 +1,15 @@
+Condições
+
+Todos os códigos até agora foram sequênciais
+
+var n = 3  
+n+=2
+window.alert(n)
+não pode mudar a ordem
+
+Condições 
+
+if(condição) é uma abertura e fechamento de chaves {}
+else (se não) {}
+
+para escrever no js precisa digitar console.log('')
