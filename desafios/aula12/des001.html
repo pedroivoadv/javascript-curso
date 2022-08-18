@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <style>
+        body {
+            font: 12pt;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        input {
+            width: 250px;
+        }
+
+        .botao {
+            width: 70px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1>Você é brasileiro ou estrangeiro?</h1>
+    <form action="" method="post">
+        <p><label for="ipais">Que pais você nasce?</label>
+        <input type="text" name="Pais" id="ipais" placeholder="Digite o pais que você nasceu"></p>
+        <input class="botao" type="button" value="Verificar" onclick="verificar()">
+    </form>
+    <div id="res">
+
+    </div>
+
+    <script>
+        function verificar() {
+            var pais = window.document.querySelector('input#ipais').value
+            var res = window.document.querySelector('div#res')
+            var nat = pais.toUpperCase()
+            res.innerHTML = `<p>Você é natural do(a) ${pais}`  
+            if (nat == 'BRASIL')  {
+                res.innerHTML += `Você é <strong>Brasileiro!`
+            } else { res.innerHTML += `Você não é brasileiro!`}
+        }
+    </script>
+</body>
+</html>
